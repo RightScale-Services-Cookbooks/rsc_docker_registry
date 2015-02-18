@@ -8,3 +8,5 @@ version          '0.1.0'
 
 depends "marker"
 depends "docker_registry"
+
+recipe "rsc_docker_registry::default", "installs docker registry"
