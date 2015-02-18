@@ -22,3 +22,4 @@ end
 
 include_recipe "docker_registry::default"
 include_recipe "docker_registry::install"
+include_recipe "docker_registry::webui"
